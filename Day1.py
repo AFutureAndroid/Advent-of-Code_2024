@@ -7,6 +7,7 @@ for line in f:
     line = line.split()
     list1.append(line[0])
     list2.append(line[1])
+f.close()
 
 list1 = sorted(list1)
 list2 = sorted(list2)
