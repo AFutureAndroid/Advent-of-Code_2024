@@ -1,5 +1,4 @@
 # Day 1 of Advent of Code
-
 f = open("Day1.txt", "r")
 list1 = []
 list2 = []
@@ -21,3 +20,10 @@ for i in list1:
 
 print(total)
 
+# part 2
+total2 = 0
+for i in list1:
+    num = list2.count(i)
+    total2 += num * int(i)
+
+print(total2)
